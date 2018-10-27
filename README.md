@@ -8,14 +8,14 @@ Additional goals will include applying these techniques to TED talk transcripts.
 
 The primary challenge of this exercise is identifying reasonable and informative text featurizations when considering essay quality. Our literature review to date has suggested the following possibilities:
 
-Length Features: the average sentence length in words and word length [2]
-Occurrence Features: use of linguistic phenomena (e.g. punctuation marks) [1,2]
-Syntax Features: syntactic variation, proportion of special clauses [1, 2]
-Style Features: quality of vocabulary, variety of vocabulary, word frequency [2, 3,4]
-Cohesion Features: occurence of connective words or phrases [1,2]
-Coherence Features: topical overlap between adjacent sentences [2]
-Error Features: grammatical or spelling errors [2,5]
-Readability Features: counts of words/letters/syllables that impact readability [2,3] 
+* Length Features: the average sentence length in words and word length [2]
+* Occurrence Features: use of linguistic phenomena (e.g. punctuation marks) [1,2]
+* Syntax Features: syntactic variation, proportion of special clauses [1, 2]
+* Style Features: quality of vocabulary, variety of vocabulary, word frequency [2, 3,4]
+* Cohesion Features: occurence of connective words or phrases [1,2]
+* Coherence Features: topical overlap between adjacent sentences [2]
+* Error Features: grammatical or spelling errors [2,5]
+* Readability Features: counts of words/letters/syllables that impact readability [2,3] 
 
 We will be capturing some of these feature categories with multiple features, so the question of aggregation remains open. Some initial research suggests that a model with aggregated features (combining micro features from a category into an aggregate score) and the micro features themselves outperforms models with either just the micro features  or just the aggregate features [6]. Our hope is that the aggregate 
 
