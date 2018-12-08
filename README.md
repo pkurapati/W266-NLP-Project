@@ -1,5 +1,15 @@
 # W266-NLP-Project
 
+# List of documents:
+* W266_Automated_Essay_Grading.pdf contains the project report
+* Feature_Engineering.ipynb contains the work related to feature extraction [Section 3 of project report]
+* Linear_Predictors.ipynb contains the linear models used on the features extracted [Section 4 of project report]
+* Visuals.ipynb contains the graphs/visuals of features
+* AEG_Deep_Learning_Essay_Classification.ipynb contains the deep learning models on essay set [Section 5 & 7]
+* AEG_LSTM_Best_Model.ipynb contains the execution of stacked LSTM on essay set [Section 5] 
+* AEG_Deep_Learning_Sentence_Classification.ipynb contains the deep learning models on sentence level [Section 6]
+
+# Project Proposal:
 We propose to leverage graded essay datasets to create insights into the quality of writing. Primarily, we will use two datasets provided by the Hewlett Foundation: one of essay length answers (avg 150-550 words) and one of the short answers (avg 50 words). The datasets are limited in size (13,000 and 17,000 respectively) and our goals require model transparency: thus, we anticipate using simpler models. Previous work in this area used such techniques [1]. 
 
 At a high level, our first step is to study literature to identify possible featurizations that could correlate with writing “quality.” After featurizing essays, we will attempt to predict the output grade using transparent ML techniques. If the classifier can achieve reasonable performance, we can identify heavily weighted features as important to the quality of writing. We propose to use the quadratic weighted kappa as our primary performance measure. We would consider the model's inability to differentiate between low and high scoring essays on the basis of text quality measures an interesting finding as well: as it would suggest the need for a new metric. 
